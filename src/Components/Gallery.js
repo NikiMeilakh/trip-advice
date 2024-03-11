@@ -31,12 +31,12 @@ const Gallery = () => {
             <div id={"explore"}>Explore the most popular cities
                 around the world and experience their
                 unique charm and attractions!</div>
-            <div className={"navGallery"}>
-                <button className={"galBut"} onClick={prevImg}>Prev</button>
-                <img className={"image"}
-                     src={src} alt={"town"}/>
-                <button className={"galBut"} onClick={nextImg}>Next</button>
-            </div>
+            {/*<div className={"navGallery"}>*/}
+            {/*    <button className={"galBut"} onClick={prevImg}>Prev</button>*/}
+            {/*    <img className={"image"}*/}
+            {/*         src={src} alt={"town"}/>*/}
+            {/*    <button className={"galBut"} onClick={nextImg}>Next</button>*/}
+            {/*</div>*/}
         </div>
     );
 };
